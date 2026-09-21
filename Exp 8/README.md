@@ -1,7 +1,7 @@
 # Experiment 8 — Postfix Expression Evaluator (YACC + Lex)
 
 A postfix (Reverse Polish Notation) expression evaluator built with Lex
-(`postfix279.l`) for tokenizing and Yacc (`postfix1219.y`) for parsing and
+(`postfix1219.l`) for tokenizing and Yacc (`postfix1219.y`) for parsing and
 evaluating expressions (`+ - * /`, division-by-zero handling and syntax-error
 recovery). Operands are pushed and operators are applied to the two most
 recent values, so no parentheses or precedence rules are needed.
